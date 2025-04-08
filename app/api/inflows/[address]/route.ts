@@ -7,7 +7,7 @@ export async function GET(
 ) {
   const address = params.address;
   
-  // Mock data based on example from assignment
+
   const mockData = {
     message: "success",
     data: [
