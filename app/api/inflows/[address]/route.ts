@@ -2,12 +2,11 @@ import { NextResponse } from 'next/server';
 
 // This would connect to your real backend in a production application
 export async function GET(
-  request: Request,
-  { params }: { params: { address: string } }
+  // _request: Request,
+  // { params }: { params: { address: any } }
 ) {
-  const address = params.address;
+  // const address = params.address;
   
-
   const mockData = {
     message: "success",
     data: [

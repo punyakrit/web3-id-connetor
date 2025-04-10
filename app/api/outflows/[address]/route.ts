@@ -1,10 +1,10 @@
 import { NextResponse } from 'next/server';
 
 export async function GET(
-  request: Request,
-  { params }: { params: { address: string } }
+  // request: Request,
+  // { params }: { params: { address: string } }
 ) {
-  const address = params.address;
+  // const address = params.address;
   
   // Mock data based on example from assignment
   const mockData = {
